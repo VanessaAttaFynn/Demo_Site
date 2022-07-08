@@ -119,7 +119,7 @@ if selected == "Solutions":
 			<p style='font-size:25px'>Finance</p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
-			<br><br><br>\
+			<br><br>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
 			DEMO<i class='bi bi-chevron-double-right'></i></button>\
@@ -133,7 +133,7 @@ if selected == "Solutions":
 			<center><i style='font-size:25px' class='bi bi-snow3'></i><p style='font-size:25px'>Agriculture</p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
-			<br><br><br>\
+			<br><br>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
 			DEMO<i class='bi bi-chevron-double-right'></i></button>\
@@ -147,7 +147,7 @@ if selected == "Solutions":
 			<p style='font-size:25px'>Healthcare</p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
-			<br><br><br>\
+			<br><br>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
 			DEMO<i class='bi bi-chevron-double-right'></i></button>\
@@ -163,10 +163,10 @@ if selected == "Solutions":
 		st.markdown("<div style='border-radius:15px;padding:3em; \
 			height:30em;box-shadow: 4px 3px 8px 1px #969696;-webkit-box-shadow: 4px 3px 8px 1px #969696;'> \
 			<center><i style='font-size:25px' class='bi bi-bag-heart'></i>\
-			<p style='font-size:25px'>Marketing, Retail & eCommerce</p>\
+			<p style='font-size:25px'>Marketing & Retail</p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
-			<br><br><br>\
+			<br><br>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
 			DEMO<i class='bi bi-chevron-double-right'></i></button>\
@@ -181,7 +181,7 @@ if selected == "Solutions":
 			<p style='font-size:25px'>Education</p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
-			<br><br><br>\
+			<br><br>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
 			DEMO<i class='bi bi-chevron-double-right'></i></button>\
@@ -197,7 +197,7 @@ if selected == "Solutions":
 			<p style='font-size:25px'>Import & Export</p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
-			<br><br><br>\
+			<br><br>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
 			DEMO<i class='bi bi-chevron-double-right'></i></button>\
@@ -239,8 +239,7 @@ if selected == "Solutions":
 		sent_img = "sentiment.png"
 		st.markdown("<div style='border-radius:15px;padding:3em; \
 			height:10em;box-shadow: 4px 3px 8px 1px #969696;-webkit-box-shadow: 4px 3px 8px 1px #969696;'>\
-			<center><img src='image/sentiment.png;base64,{base64.b64encode(open(sent_img, 'rb').read()).decode()}'>\
-			<p style='font-weight:bold'>Customer Churn Prediction</p></center></div>",
+			<center><p style='font-weight:bold'>Customer Churn Prediction</p></center></div>",
 			unsafe_allow_html=True)
 	with col12:
 		st.markdown("<div style='border-radius:15px;padding:3em; \
