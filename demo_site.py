@@ -134,9 +134,10 @@ if selected == "Solutions":
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<p>Spmething Spmething Spmething Spmething Spmething Spmething Spmething </p>\
 			<br><br>\
+			<a href='https://vanessaattafynn-agric-demo-4aic4f.streamlitapp.com/'>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
-			DEMO<i class='bi bi-chevron-double-right'></i></button>\
+			DEMO<i class='bi bi-chevron-double-right'></i></button></a>\
 			</center></div>",
 			unsafe_allow_html=True)
 	#HEALTH-------------------------------------------------------------------------------------------------
