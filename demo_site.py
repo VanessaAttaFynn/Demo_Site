@@ -285,9 +285,10 @@ if selected == "Platform":
 			</ul>\
 			</div>\
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>\
+			<a href='https://vanessaattafynn-marketing-n-retail-ecom-vkejnj.streamlitapp.com/'>\
 			<button class='t1'style='background-color:#F35106;color:white; border:None;border-radius:10px;\
 			padding:15px;min-height:30px;min-width: 120px;' type='button'>\
-			DEMO<i class='bi bi-chevron-double-right'></i></button>\
+			DEMO<i class='bi bi-chevron-double-right'></i></button></a>\
 			</center></div>",
 			unsafe_allow_html=True)
 
@@ -301,7 +302,7 @@ if selected == "Platform":
 			<ul style='margin:0px;padding-right:0px'>\
 				<li style='background-color:#FDF7E4;color:#F35106;display:inline-block;border-radius:10px;padding-right:10px;font-size:14px;float:left'>Translations</li>\
 				<li style='background-color:#FDF7E4;color:#F35106;display:inline-block;border-radius:10px;padding-right:10px;font-size:14px;float:left'>Formula Recognition</li>\
-				<li style='background-color:#FDF7E4;color:#F35106;display:inline-block;border-radius:10px;padding-right:10px;font-size:14px;float:left'>Text to Audio</li>\
+				<li style='background-color:#FDF7E4;color:#F35106;display:inline-block;border-radius:10px;padding-right:10px;font-size:14px;float:left'>Text to Speech</li>\
 				<li style='background-color:#FDF7E4;color:#F35106;display:inline-block;border-radius:10px;padding-right:10px;font-size:14px;float:left'>Image to Text</li>\
 				<li style='background-color:#FDF7E4;color:#F35106;display:inline-block;border-radius:10px;padding-right:10px;font-size:14px;float:left'>Performace Prediction</li>\
 			</ul>\
